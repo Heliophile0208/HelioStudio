@@ -1,0 +1,292 @@
+<!doctype html>
+<html lang="vi">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+  <title>HelioStudio - Thiết kế & Phát triển Website</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- nền toàn trang -->
+  <canvas id="bg"></canvas>
+
+  <header>
+    <div class="logo clickable" onclick="scrollToTop()">HelioStudio</div>
+    <nav>
+      <a href="#services">Dịch vụ</a>
+      <a href="https://linktr.ee/Ngan200803" class="btn clickable" target="_blank">Liên hệ</a>
+    </nav>
+  </header>
+
+  <main>
+    <div class="hero-title">
+      Chúng tôi <span>Thiết Kế</span> & <span>Phát Triển</span> Website <br>
+      Chuyên Nghiệp, Sáng Tạo & Tối Ưu
+    </div>
+
+
+    <!-- HERO -->
+    <div class="hero">
+      <div class="hero-left">
+        <h1>Thiết Kế <span style="color:var(--accent)">Website Đẹp & Tinh Tế</span></h1>
+        <p>Giao diện hiện đại, chuẩn UX/UI, trải nghiệm người dùng mượt mà, giúp thương hiệu nổi bật.</p>
+        <a class="btn" href="#services">Khám Phá Dịch Vụ</a>
+      </div>
+      <div class="hero-right">
+        <h1>Phát Triển <span style="color:var(--accent)">Website Chuyên Nghiệp</span></h1>
+        <p>Tính năng mạnh mẽ, tốc độ cao, bảo mật tối ưu, dễ quản lý và mở rộng.</p>
+        <a id="quoteBtn" class="btn" href="#">Nhận Báo Giá Ngay</a>
+
+      </div>
+    </div>
+    <!-- MODAL-->
+
+    <div id="quoteModal" class="modal">
+      <div class="modal-content"> <span class="close">&times;</span>
+        <h2 style="text-align:center; margin-bottom:20px; color: #6ee7b7;">Thông Tin Liên Hệ</h2>
+        <table class="contact-table">
+          <tr>
+            <th>Liên Hệ</th>
+            <th>Thông Tin</th>
+          </tr>
+          <tr>
+            <td>Điện Thoại</td>
+            <td><a href="tel:0928338155">0928.338.155</a></td>
+          </tr>
+          <tr>
+            <td>Email</td>
+            <td><a href="mailto:lethikimngan20803@gmail.com">lethikimngan20803@gmail.com</a></td>
+          </tr>
+          <tr>
+            <td>Facebook</td>
+            <td><a href="https://www.facebook.com/photo/?fbid=126620973448318&set=a.126620976781651"
+                target="_blank">Salutations</a></td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <!-- SECTION DỊCH VỤ -->
+    <section id="services">
+      <h2>Dịch Vụ Của Chúng Tôi</h2>
+      <div class="service-grid">
+        <div class="service-card clickable">
+          <h3>Thiết kế Website</h3>
+          <p>Giao diện đẹp, hiện đại, chuẩn UX/UI giúp thương hiệu nổi bật và chuyên nghiệp.</p>
+        </div>
+        <div class="service-card clickable">
+          <h3>Lập trình Web</h3>
+          <p>Phát triển tính năng tùy chỉnh, tốc độ nhanh, bảo mật cao và dễ quản lý.</p>
+        </div>
+        <div class="service-card clickable">
+          <h3>SEO & Marketing</h3>
+          <p>Tối ưu công cụ tìm kiếm và chiến lược marketing giúp tăng trưởng khách hàng bền vững.</p>
+        </div>
+        <div class="service-card clickable">
+          <h3>Content Creation</h3>
+          <p>Sáng tạo nội dung hấp dẫn, thu hút khách hàng và tăng tương tác hiệu quả.</p>
+        </div>
+        <div class="service-card clickable">
+          <h3>Branding</h3>
+          <p>Xây dựng bộ nhận diện thương hiệu mạnh mẽ và thống nhất trên mọi nền tảng.</p>
+        </div>
+        <div class="service-card clickable">
+          <h3>Analytics & Reporting</h3>
+          <p>Phân tích dữ liệu, báo cáo hiệu quả và tối ưu chiến lược kinh doanh.</p>
+        </div>
+      </div>
+    </section>
+    <!-- Dự Án-->
+    <section id="projects">
+      <h2 style="text-align: center;">Dự Án Đã Thực Hiện</h2>
+
+      <div class="project-grid">
+        <a href="https://nidtech.vn/" class="project-item" target="_blank">
+          <img src="img/nidtech.png" alt="Project 1">
+          <div class="project-info">
+            <h3> Công Ty TNHH Nidtech</h3>
+          </div>
+        </a>
+
+        <a href="https://minhhaiofficelaw.com/" class="project-item" target="_blank">
+          <img src="img/minhhai.png" alt="Project 2">
+          <div class="project-info">
+            <h3>Văn Phòng Luật Sư Minh Hải</h3>
+          </div>
+        </a>
+
+        <a href="https://congtyluatso1.com/" class="project-item" target="_blank">
+          <img src="img/luatso1.png" alt="Project 3">
+          <div class="project-info">
+            <h3>Công Ty Luật Số 1</h3>
+          </div>
+        </a>
+
+        <a href="https://dlsdongnai.com/" class="project-item" target="_blank">
+          <img src="img/doanluatsu.png" alt="Project 4">
+          <div class="project-info">
+            <h3>Đoàn Luật Sư Đồng Nai</h3>
+          </div>
+        </a>
+        <a href="https://lahatravel.com/" class="project-item" target="_blank">
+          <img src="img/laha.png" alt="Project 4">
+          <div class="project-info">
+            <h3>Công Ty TNHH TMDV Laha's House</h3>
+          </div>
+        </a>
+        <a href="https://yvnlaw.com/" class="project-item" target="_blank">
+          <img src="img/yvnlaw.png" alt="Project 4">
+          <div class="project-info">
+            <h3>Công Ty Luật MTV YVnLaw</h3>
+          </div>
+        </a>
+      </div>
+    </section>
+    <!-- Tại Sao Chọn Chúng Tôi-->
+    <section id="why-us">
+      <h2>Tại Sao Chọn Chúng Tôi</h2>
+      <div class="why-us-container">
+        <div class="why-us-left scroll-item">
+          <img src="img/taisao.png" alt="Tại sao chọn chúng tôi">
+        </div>
+        <div class="why-us-right">
+          <div class="why-us-item scroll-item clickable">
+            <h3>Chất Lượng Cao</h3>
+            <p>Giao diện đẹp, chuẩn UX/UI, tối ưu trải nghiệm người dùng.</p>
+          </div>
+          <div class="why-us-item scroll-item clickable">
+            <h3>Hỗ Trợ Nhanh Chóng</h3>
+            <p>Đội ngũ sẵn sàng hỗ trợ 24/7, đảm bảo vận hành mượt mà.</p>
+          </div>
+          <div class="why-us-item scroll-item clickable">
+            <h3>Bảo Mật Tối Ưu</h3>
+            <p>Website được bảo vệ, an toàn dữ liệu khách hàng.</p>
+          </div>
+          <div class="why-us-item scroll-item clickable">
+            <h3>Giá Cả Hợp Lý</h3>
+            <p>Các gói linh hoạt, phù hợp mọi nhu cầu và ngân sách.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="faq">
+      <h2>Câu Hỏi Thường Gặp</h2>
+      <div class="faq-container">
+        <div class="faq-item">
+          <button class="faq-question clickable">
+            <span>1. Bao lâu tôi có website hoàn chỉnh?</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>Thông thường từ 7–14 ngày, tuỳ vào độ phức tạp và số lượng tính năng.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question clickable">
+            <span>2. Tôi có thể tự quản trị website không?</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>Có, chúng tôi cung cấp hướng dẫn quản trị và CMS dễ sử dụng.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question clickable">
+            <span>3. Giá thiết kế website là bao nhiêu?</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>Giá phụ thuộc vào yêu cầu và tính năng, vui lòng liên hệ để nhận báo giá chi tiết.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question clickable">
+            <span>4. Tôi có cần cung cấp nội dung trước không?</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>Nếu có sẵn nội dung thì tiến độ sẽ nhanh hơn, nhưng chúng tôi có thể hỗ trợ viết và biên tập nội dung.
+            </p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question clickable">
+            <span>5. Website có chuẩn SEO không?</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>Chúng tôi xây dựng website chuẩn SEO, thân thiện với Google và các công cụ tìm kiếm.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question clickable">
+            <span>6. Website có tương thích trên điện thoại và máy tính bảng không?</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>Website được thiết kế responsive, hiển thị đẹp trên mọi thiết bị.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question clickable">
+            <span>7. Tôi có thể nâng cấp website sau này không?</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>Có, chúng tôi cung cấp dịch vụ nâng cấp và mở rộng tính năng khi cần thiết.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question clickable">
+            <span>8. Website có bảo mật không?</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>Chúng tôi áp dụng các biện pháp bảo mật cơ bản như SSL, chống tấn công và sao lưu định kỳ.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question clickable">
+            <span>9. Tôi có được hỗ trợ sau khi website đi vào hoạt động không?</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>Có, chúng tôi cung cấp hỗ trợ kỹ thuật và tư vấn sau khi bàn giao website.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question clickable">
+            <span>10. Tôi có cần ký hợp đồng không?</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>Có, tất cả dự án đều được ký hợp đồng rõ ràng để đảm bảo quyền lợi cho cả hai bên.</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Three.js -->
+  <script src="https://cdn.jsdelivr.net/npm/three@0.150.0/build/three.min.js"></script>
+  <script src="hieuung.js"></script>
+</body>
+<footer id="contact">
+  <p>Email: <a class="clickable" href="mailto:salutaions0208@gmail.com">salutaions0208@gmail.com</a></p>
+</footer>
+
+</html>
