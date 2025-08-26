@@ -396,7 +396,7 @@
     }
 
     .why-us-item p {
-        font-size: 20px;
+        font-size: 18px;
         color: white;
         line-height: 1.2;
         transition: color 0.3s ease;
@@ -776,3 +776,4 @@
   }
 }
     }
+
