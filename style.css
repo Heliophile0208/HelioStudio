@@ -805,12 +805,13 @@
     }
 
     .close {
-        top: 10px;
-        right: 10px;
+        top: 12px;
+        right: 12px;
         font-size: 26px;
         z-index: 10;
     }
     }
+
 
 
 
