@@ -799,13 +799,6 @@
         box-sizing: border-box;
     }
 
-    .contact-table td::before {
-        content: attr(data-label) ": ";
-        font-weight: bold;
-        display: inline-block;
-        width: 120px; 
-    }
-
     .contact-table tr {
         display: block;
         margin-bottom: 10px;
@@ -818,6 +811,7 @@
         z-index: 10;
     }
     }
+
 
 
 
