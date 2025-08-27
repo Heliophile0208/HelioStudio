@@ -761,16 +761,16 @@
         #services {
             padding: 40px 10px;
         }
-    .contact-table {
+     .contact-table {
         width: 100%;
-        table-layout: fixed;   /* ép bảng co lại trong modal */
+        table-layout: fixed;   
         word-wrap: break-word;
-        font-size: 16px;       /* chữ nhỏ lại cho vừa */
+        font-size: 16px;      
     }
 
     .contact-table th,
     .contact-table td {
-        display: block;        /* chuyển sang dạng dọc */
+        display: block;      
         width: 100%;
         text-align: left;
         padding: 6px 8px;
@@ -779,14 +779,15 @@
 
     .contact-table th {
         font-size: 17px;
-        background: #f5f5f5;   /* tùy chọn: làm nổi bật tiêu đề */
+        background: #f5f5f5;  
     }
 
     .contact-table tr {
-        margin-bottom: 10px;   /* tạo khoảng cách giữa các mục */
+        margin-bottom: 10px; 
         display: block;
     }
     }
+
 
 
 
