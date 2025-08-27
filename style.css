@@ -760,21 +760,30 @@
         #services {
             padding: 40px 10px;
         }
-     .modal-content {
-        width: 90%;   
-        padding: 15px; 
+    .contact-table {
+        width: 100%;
+        table-layout: fixed;   /* ép bảng co lại trong modal */
+        word-wrap: break-word;
+        font-size: 16px;       /* chữ nhỏ lại cho vừa */
     }
 
-    .contact-table {
-        font-size: 18px;
+    .contact-table th,
+    .contact-table td {
+        display: block;        /* chuyển sang dạng dọc */
+        width: 100%;
+        text-align: left;
+        padding: 6px 8px;
+        box-sizing: border-box;
     }
 
     .contact-table th {
-        font-size: 20px;
+        font-size: 17px;
+        background: #f5f5f5;   /* tùy chọn: làm nổi bật tiêu đề */
     }
 
-    .contact-table td {
-        padding: 8px 10px;
+    .contact-table tr {
+        margin-bottom: 10px;   /* tạo khoảng cách giữa các mục */
+        display: block;
     }
 }
     }
