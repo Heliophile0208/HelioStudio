@@ -13,7 +13,7 @@
         color: #e6eef8;
         background: var(--bg);
         cursor: url('img/cursor32.png'), auto;
-        /* url đến ảnh con trỏ */
+        overflow:hidden;
     }
 
     a {
