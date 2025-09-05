@@ -13,7 +13,7 @@
         color: #e6eef8;
         background: var(--bg);
         cursor: url('img/cursor32.png'), auto;
-        overflow:hidden;
+        overflow-x:hidden;
     }
 
     a {
