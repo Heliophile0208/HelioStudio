@@ -689,6 +689,11 @@
         }
     }
 
+@media (min-width: 1024px) {
+  .service-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
 
     /* Media query nhỏ hơn 500px */
     @media (max-width: 500px) {
@@ -811,6 +816,7 @@
         z-index: 10;
     }
     }
+
 
 
 
